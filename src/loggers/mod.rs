@@ -3,6 +3,7 @@ mod simplelog;
 mod termlog;
 mod writelog;
 mod comblog;
+mod testlog;
 pub mod logging;
 
 pub use self::simplelog::SimpleLogger;
@@ -10,3 +11,4 @@ pub use self::simplelog::SimpleLogger;
 pub use self::termlog::{TermLogger, TermLogError};
 pub use self::writelog::WriteLogger;
 pub use self::comblog::CombinedLogger;
+pub use self::testlog::TestLogger;
